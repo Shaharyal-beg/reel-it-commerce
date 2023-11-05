@@ -1,0 +1,89 @@
+
+.Main-box{
+   width: 1519px;
+   height:900px;
+   background-color: transparent;
+   position: absolute;
+   box-shadow: 0 0.1rem 0.5rem rgba(0,0,0,.55);
+   display: flex;
+   border-bottom: 1px solid black;
+}
+
+.Sidebar{
+    background-color: #be19ad;  
+    height:747px;
+    width:25%;
+    border-radius: 0px 48px 48px 0px;
+    flex: 1 ;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-257%,8.2%); */
+}
+ 
+ .blobs1{
+    width: 100%;
+    height: 900px;
+ }
+ 
+ 
+ .logo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 48px;
+    left: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+ }
+ 
+ .logo img{
+    width: 42px;
+    height: 42px;
+    margin-right: 16px;
+ }
+ 
+ .upper-block-buttons{
+    position: absolute;
+    top: 128px;
+ }
+ 
+ .lower-block-buttons{
+    position: absolute;
+    bottom: 50px;
+ }
+ 
+ .blocks{
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    margin-left: 57px;
+ }
+ 
+ .side-panel-buttons{
+    background-color: transparent;
+    border: none;
+    width: 280px;
+    height: 72px;
+    color: #fff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+ }
+ 
+ .side-panel-buttons:hover{
+    transform: scale(1);
+    color: black;
+    border-radius:15px ;
+ }
+
+ .mainArea{
+   float: right;
+   width: 70%;
+   height:900px;
+
+ }

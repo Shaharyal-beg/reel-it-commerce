@@ -1,0 +1,27 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   position: relative;
+}
+
+.table{
+   position: absolute;
+   top: 28%;
+   width: 60vw;
+   height:25vw;
+   border: 1px solid #be19ad;
+   border-radius: 20px;
+   margin: 0 0 0 2vw;
+}
+.table td{
+   padding: 15px 32px;
+   color: rgb(173, 161, 161);
+}
+
+.chart{
+   position: absolute;
+   top: 40%;
+   left: 10%;
+   width: 300px;
+   height: 300px;
+}

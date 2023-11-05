@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.signup-mainBox{
+    background-color: #be18ad;
+    display: block;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,10%);
+    width: 1100px;
+    height: 600px;
+    box-shadow: 0 0.1rem 0.5rem rgba(0,0,0,.55);
+}
+
+.signup-side-panel{
+    position: absolute;
+    width: 369px;
+    height: 600px;
+}
+
+.signup-blobs-image{
+    width: 100%;
+    height: 100%;
+}
+
+.signup-side-image{
+    position: absolute;
+    top: 125px;
+    left: 40px;
+    width: 255px;
+}
+
+.signup-hey-there{
+    color: #000;
+    font-family: Poppins, Helvetica;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+
+input{
+    padding: 20px;
+}
+.account{
+    color: #000;
+    width: 300px;
+    font-family: Poppins, Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    position: absolute;
+    top: 65px;
+    left: 45px;
+}
+
+.signup-mainPage{
+    display: block;
+    position: absolute;
+    background-color: white;
+    width: 731px;
+    height: 600px;
+    right: 0px;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.sign-up-heading{
+    color: #000;
+    text-align: center;
+    width: 355px;
+    font-family: Inter, Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    left: 30%;
+    top: 50px;
+}
+.error-message{
+    color: rgb(255, 64, 64);
+    width: 355px;
+    font-family: Inter, Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    left: 10%;
+    top: 100px;
+}
+
+
+.signup-first-name-field{
+    border: 1px solid #a09999;
+    border-radius: 20px;
+    width: 290px;
+    height: 51px;
+    position: absolute;
+    left: 10%;
+    top: 140px; 
+}
+
+.signup-first-name{
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 10px;
+    display: flex;
+    position: absolute;
+    top: 135px;
+    left: 100px;
+}
+
+.signup-first-name span{
+    color: #a09999;
+    margin-left: -2.91px;
+    margin-right: -0.91px;
+    font-family: Inter, Helvetica;
+    font-size: 20px;
+}
+
+.signup-last-name-field{
+    border: 1px solid #a09999;
+    border-radius: 20px;
+    width: 290px;
+    height: 51px;
+    position: absolute;
+    left: 52%;
+    top: 140px; 
+}
+
+.signup-last-name{
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 10px;
+    display: flex;
+    position: absolute;
+    top: 135px;
+    right: 215px;
+}
+
+.signup-last-name span{
+    color: #a09999;
+    margin-left: -2.91px;
+    margin-right: -0.91px;
+    font-family: Inter, Helvetica;
+    font-size: 20px;
+}
+
+.signup-email-fields{
+    border: 1px solid #a09999;
+    border-radius: 20px;
+    width: 600px;
+    height: 51px;
+    position: absolute;
+    left: 10%;
+    top: 220px;
+}
+
+.signup-email{
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 93px;
+    height: 10px;
+    display: flex;
+    position: absolute;
+    top: 215px;
+    left: 100px;
+}
+
+.signup-email span{
+    color: #a09999;
+    margin-left: -2.91px;
+    margin-right: -0.91px;
+    font-family: Inter, Helvetica;
+    font-size: 20px;
+}
+
+.signup-password-fields{
+    border: 1px solid #a09999;
+    border-radius: 20px;
+    width: 600px;
+    height: 51px;
+    position: absolute;
+    left: 10%;
+    top: 300px;
+}
+
+.signup-password{
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 93px;
+    height: 10px;
+    display: flex;
+    position: absolute;
+    top: 295px;
+    left: 100px;
+}
+
+.signup-password span{
+    color: #a09999;
+    margin-left: -2.91px;
+    margin-right: -0.91px;
+    font-family: Inter, Helvetica;
+    font-size: 20px;
+}
+
+.sign-up-button{
+    border-color: white;
+    background-color: #be18ad;
+    position: absolute;
+    border-radius: 20px;
+    width: 600px;
+    height: 51px;
+    left: 70px;
+    bottom: 180px;
+    color: #fff;
+    font-family: Inter, Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.signup-dont-have-an-account{
+    font-family: Inter, Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 140px;
+    left: 90px;
+}
+
+.pink-sign-in{
+    color: #be18ad;
+    text-decoration: none;
+}
