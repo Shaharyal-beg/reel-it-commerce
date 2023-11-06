@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Dashboard.css"
+// import "./Dashboard.css"
 import ChartsPage from '../Graphs/ChartsPage'
 export default function Dashboard({match}) {
 
@@ -7,9 +7,11 @@ export default function Dashboard({match}) {
   <>
     <div className='charts'>
       <ChartsPage />
+
     </div>
     <div className='table'>
-      <tr>
+      <h3 style={{color:'#be19ad',textAlign:'center'}}>Customer Order History</h3>
+      <tr className='table-headings'>
         <td>NO</td>
         <td>Customer Id</td>
         <td> Name</td>
@@ -41,6 +43,15 @@ export default function Dashboard({match}) {
 
         <tr>
           <td>3</td>
+          <td>#6622</td>
+          <td>Diway</td>
+          <td>Lahore</td>
+          <td>6oct | 11:45am</td>
+          <td>Paid</td>
+          <td>$98</td>
+        </tr>
+        <tr>
+          <td>4</td>
           <td>#6622</td>
           <td>Diway</td>
           <td>Lahore</td>

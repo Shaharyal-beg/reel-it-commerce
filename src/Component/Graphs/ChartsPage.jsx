@@ -61,13 +61,20 @@ class ChartsPage extends React.Component {
       }
     }
   }
+ 
 
 
   render() {
     return (
       <>
-        <h3 className="mt-5">Bar chart</h3>
-        <Bar className="ordersChart" data={this.state.dataBar} options={this.state.barChartOptions} />
+      <div className="chart-conatiner">
+        <h3>Orders Chart</h3><br/>
+        <Bar className="ordersChart" data={this.state.dataBar} options={this.state.barChartOptions} style={{width:"400px"}}/>
+        </div>
+        <div className="chart-conatiner">
+        <h3 >Income Chart</h3><br/>
+        <Bar className="ordersChart" data={this.state.dataBar} options={this.state.barChartOptions} style={{width:"400px"}}/>
+        </div>
       </>
 
     );

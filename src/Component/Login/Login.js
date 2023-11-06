@@ -22,7 +22,7 @@ export default function Login() {
   const [error , setError] = useState('');
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post("http://192.168.2.104:8002/api/merchant/login", data)
+    axios.post("http://192.168.2.103:8002/api/merchant/login", data)
       .then(response => {
         localStorage.setItem('token', response.data.token);
         localStorage.setItem("authenticated", true);
